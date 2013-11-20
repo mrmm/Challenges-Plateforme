@@ -1,0 +1,7 @@
+AuthUserFile /var/www/wamp_1/ESPRIT_Challenge/SQLi/r00t_area/.htpasswd
+AuthName "R00t Area you are not allowed here"
+AuthType Basic
+    
+<Limit GET POST>
+    require valid-user
+</Limit>
